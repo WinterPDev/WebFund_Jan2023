@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!-- HTML Tags do not have parents! -->
+<html lang="en">
+
+<!-- Holds meta information about our page -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to HTML</title>
+</head>
+<!-- Body holds all of our content! ALL of the website the user sees is going in the body tag! -->
+
+<body>
+
+    <h1>Hello from the H1!</h1>
+
+    <p>Some Text in the Paragraph Tag!</p>
+
+    <!-- href is an attribute of the anchor tag -->
+    <a href="https://www.nintendo.com/">
+        <img src="https://placekitten.com/100/100" alt="Smol Kitten">
+    </a>
+
+    <img src="theo_cat.jpg" alt="Theo" width="200px">
+
+    <h3>Favorite Animals</h3>
+    <!-- ul is a parent element to hold li child elements -->
+    <ul>
+        <li>Red Panda</li>
+        <li>Leopard</li>
+        <li>Kangaroo</li>
+        <li>turtle</li>
+        <li>horse</li>
+        <li>penguin</li>
+        <li>hamster</li>
+        <!-- Make sure all children of the ul tag are inside of <li> elements! -->
+        <p>Bulbasaur</p>
+    </ul>
+
+    <!--  -->
+    <form action="#">
+
+        <div>
+            <label for="animal_name">Animal Name : </label>
+            <input type="text" id="animal_name" placeholder="Enter Animal Name Here">
+        </div>
+
+        <div>
+            <input type="radio" name="endangeredSelect" id="Is_Endangered">
+            <label for="Is_Endangered">Is Endangered</label>
+
+            <input type="radio" name="endangeredSelect" id="Not_Endangered">
+            <label for="Not_Endangered">Is Not Endangered</label>
+            <input type="radio" name="endangeredSelect" id="Not_Endangered" checked>
+            <label for="Not_Endangered">Unknown</label>
+        </div>
+        <input type="submit" value="Add Pet">
+    </form>
+
+
+
+</body>
+
+
+</html>
