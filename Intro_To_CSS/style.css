@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
+* {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+/* 
+Selectors allow us to tell our style exactly where to go!
+*/
+
+/* Selecting every h1 tag on the page! */
+h1 {
+    /* Rules go between the curly braces! Remember to end lines with ; */
+    color: rebeccapurple;
+    font-size: 50px;
+}
+
+/* Classes are selectors that let us specify where we put the defined styles.
+Has higher priority than generic selectors (the h1 above!)
+*/
+.text-red {
+    color: red;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+/* 
+Id's have a higher priority than classes. 
+Elements can only have 1 id, and an id can only be used once per page!
+*/
+#text-teal {
+    color: teal;
+}
