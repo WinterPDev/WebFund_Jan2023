@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    color: rebeccapurple;
+    display: inline-block;
+}
+
+.inline-b {
+    display: inline-block;
+}
+
+.box {
+    /* 
+    For creating a border, include 3 things: 
+        size (2px)
+        style (solid)
+        color 
+    */
+    border: 7px solid seagreen;
+    height: 30px;
+    width: 30px;
+    background-color: cornflowerblue;
+    padding: 20px;
+    margin: 10px;
+    vertical-align: middle;
+}
+
+.smaller-box {
+    height: 5px;
+    width: 5px;
+    vertical-align: middle;
+}
