@@ -64,3 +64,14 @@ console.log(result1);
 var result2 = isPal([3, 2, 1, 1, 2, 3]);
 console.log(result2);
 // Output: "Pal-indrome!"
+
+
+
+var x = 5;
+function setX(argument) {
+    return argument - 2
+}
+x = setX(x);
+// is the program crashed because there are no value return from the fucntion.OR, x is still = 5 ?
+
+console.log(x)
