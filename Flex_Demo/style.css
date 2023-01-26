@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* We want to apply Flex from the parent element/container */
+
+ul {
+    list-style: none;
+    display: flex;
+    /* Justify Content can ONLY be used with Flex. 
+        This can help us control the HORIZONTAL spacing/position
+    */
+    /* justify-content: space-evenly; */
+    gap: 50px;
+}
+
+li {
+    /* margin-left: 40px; */
+}
+
+.flexed {
+    display: flex;
+}
+
+.centered {
+    /* Align items allows us to position vertically.
+        align items center, allows us to center elements relative to the largest element in the container.
+    */
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: teal;
+}
