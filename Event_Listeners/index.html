@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Events</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 id="title" onclick="this.remove()">Hello~!</h1>
+
+    <!-- <button onclick=" alertmsg('Hello World!') ">Click for Alert!</button>
+
+    <p onclick="thisEL(this)">Darkrai is the best pokemon!</p> -->
+
+    <!-- <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button>
+    <button onclick="turnOff(this)">On</button> -->
+
+    <!-- <img src="https://archives.bulbagarden.net/media/upload/thumb/8/88/0491Darkrai.png/600px-0491Darkrai.png"
+        alt="Dark Rai" onmouseover="changeImg(this)"> -->
+
+
+
+    <div id="pokemonTeam">
+        <img src="https://archives.bulbagarden.net/media/upload/thumb/c/cd/0564Tirtouga.png/600px-0564Tirtouga.png"
+            alt="Tirtouga" id="pokemon">
+        <p id="pokemonName">Tirtouga</p>
+        <input type="number" id="pokeID">
+        <input type="text" placeholder="Enter Pokemon Name" id="pokeName">
+    </div>
+    <button onclick="getPokemon()">Evolve Pokemon!</button>
+
+
+    <script src="script.js">
+
+    </script>
+</body>
+
+</html>
