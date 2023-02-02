@@ -12,7 +12,8 @@ async function getPokemonData(pokeName) {
 
 
 async function displayPokemonData() {
-    var pokemon = await getPokemonData(document.querySelector('#pokeSearch').value);
+
+    var pokemon = await getPokemonData(document.querySelector('#pokeSearch').value.toLowerCase());
     var pokeDiv = document.querySelector('#pokemonData')
 
     pokeDiv.innerHTML = "";
