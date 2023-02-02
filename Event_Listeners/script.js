@@ -50,3 +50,9 @@ function getPokemon() {
     pokePic.src = `https://archives.bulbagarden.net/media/upload/thumb/c/cd/${fullName}.png/600px-${fullName}.png`;
 
 }
+
+
+function getGrandParent(element) {
+    var grandParent = element.parentNode.parentNode.remove()
+    console.log(grandParent)
+}
